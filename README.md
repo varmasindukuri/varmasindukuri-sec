@@ -46,5 +46,25 @@ hdbscan · gensim · psutil · pystray · Groq API
 **MLOps** — Model Registry · Multi-Agent Fusion · Real-time Inference  
 
 ---
+---
 
+## ICS/OT Security — HAI Dataset
+
+[github.com/varmasindukuri/ics-malware-detection](https://github.com/varmasindukuri/ics-malware-detection)
+
+Industrial control system attack detection on the HAI benchmark dataset
+(KAIST) — 4 versions, 84 sensors, 1 Hz.
+
+| Model | Type |
+|-------|------|
+| TCN-BiLSTM + MultiHead Attention | Best F1, cross-version generalizes |
+| LSTM Autoencoder | Unsupervised, mean+3σ threshold |
+| Random Forest + XGBoost | 589 engineered features |
+| Ensemble | All four combined |
+
+MITRE ATT&CK for ICS: automated T0836/T0838/T0855 attribution
+from SHAP top features to physical subsystem (Boiler/Turbine/Condenser).
+
+> Field context: I service VFDs and Ignition SCADA professionally —
+> the sensor columns represent real physical systems I work with.
 *Open to roles in: AI Security · Threat Intelligence · MLOps · Data Science*
